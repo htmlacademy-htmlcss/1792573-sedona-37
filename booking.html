@@ -1,0 +1,459 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Седона</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+ </head>
+ <body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img src="img/logo.png" alt="логотип">
+                </div>
+                <div class="menu">
+                    <menu>
+                        <li>
+                            <a href="">Главная</a>
+                        </li>
+                        <li>
+                            <a href="">О Седоне</a>
+                        </li> <li>
+                            <a href="">Гостиница</a> 
+                        
+                        </li>
+                    </menu>
+                </div>
+                <div class="header-click">
+                    <div class="navigation">
+                        <a href="">
+                            <img src="icons/search.svg" alt="Поиск">
+                        </a>
+                        <a href="">
+                            <img src="icons/heart.svg" alt="Понравившееся">
+                            <div class="notification">
+                                <span>12</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="button">
+                        <button>Хочу сюда</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="booking-hero">
+        <div class="booking-container container">
+            <div class="booking-hero__header">
+                <div class="booking-title">
+                    <span>Гостиницы Седоны</span>
+                </div>
+                <div class="breadcrumbs">
+                    <ul>
+                        <li>
+                            <img src="icons/home.svg" alt="Главная">
+                        </li>
+                        <li>
+                            <span>Гостиницы</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="booking-content">
+                    <div class="booking-col">
+                        <div class="booking-mini-title">
+                            <span>Инфраструктура:</span>
+                        </div>
+                        <div class="booking-list">
+                            <div class="booking-radio">
+                                <label class="ans-label ng-binding">
+                                    <input id="asdActive" type="checkbox" class="checkbox square">
+                                        Бассейн
+                                </label> 
+                            </div>
+                            <div class="booking-radio">
+                                <label class="ans-label ng-binding">
+                                    <input id="asdActive" type="checkbox" class="checkbox square">
+                                        Парковка
+                                </label> 
+                            </div>
+                            <div class="booking-radio">
+                                <label class="ans-label ng-binding">
+                                    <input id="asdActive" type="checkbox" class="checkbox square">
+                                        Wi-Fi
+                                </label> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="booking-col">
+                        <div class="booking-mini-title">
+                            <span>Тип жилья:</span>
+                        </div>
+                        <div class="booking-list">
+                            <div class="booking-radio">
+                                <label class="ans-radio">
+                                    <input type="radio" value="3" class="radio" name="10">
+                                    Гостиница
+                                </label>
+                                <label class="ans-radio">
+                                    <input type="radio" value="3" class="radio" name="10">
+                                    Мотель
+                                </label>
+                                <label class="ans-radio">
+                                    <input type="radio" value="3" class="radio" name="10">
+                                    Апартаменты
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="booking-col">
+                        <div class="booking-mini-title">
+                            <span>Стоимость, ₽:</span>
+                        </div>
+                        <div class="booking-price">
+                            <div class="booking-price-input">
+                                <input type="text" placeholder="0">
+                                <span>от</span>
+                            </div>
+                            <div class="booking-price-input">
+                                <input type="text" placeholder="9000">
+                                <span>от</span>
+                            </div>
+                        </div>
+                        <div class="booking-range">
+                            <input type="range">
+                        </div>
+                    </div>
+                    <div class="booking-col">
+                        <div class="booking-mini-title">
+                        </div>
+                        <div class="booking-buttons">
+                            <button>Применить</button>
+                            <button>Сбросить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="booking-hero__img">
+            <img src="img/booking.jpg" alt="Букинг">
+        </div>
+    </div>
+
+    <div class="params">
+        <div class="container">
+            <div class="params-content">
+                <div class="params-title">
+                    <span>Найдено гостиниц: 38</span>
+                </div>
+                <div class="params-buttons">
+                    <div class="params-sort">
+                        <select name="money" id="money-select">
+                            <option value="">Сначала дешевые</option>
+                            <option value="expensive">Сначала дорогие</option>
+                            <option value="popular">Сначала популярные</option>
+                        </select>
+                        <!-- <img src="icons/arrow-sort.svg" alt="Стрелка"> -->
+                    </div>
+                    <div class="params-view">
+                        <button>
+                            <img src="icons/view-grid.svg" alt="Карточки">
+                        </button>
+                    </div>
+                    <div class="params-view">
+                        <button>
+                            <img src="icons/view-full.svg" alt="Карточки">
+                        </button>
+                    </div>
+                    <div class="params-view">
+                        <button>
+                            <img src="icons/view-list.svg" alt="Карточки">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="catalog">
+        <div class="container">
+            <div class="catalog-list">
+                <ul>
+                    <li>
+                        <div class="catalog-item">
+                            <div class="catalog-item-container">
+                                <div class="catalog-item-media">
+                                    <img src="photo/hotel1.jpg" alt="">
+                                </div>
+                                <div class="catalog-item-name">
+                                    <span>Amara Resort & Spa</span>
+                                </div>
+                                <div class="catalog-item-stats">
+                                    <span>Гостиница</span>
+                                    <span>От 4000 ₽</span>
+                                </div>
+                                <div class="catalog-item-buttons">
+                                    <button class="brown">подробнее</button>
+                                    <button class="blue">в избранное</button>
+                                </div>
+                                <div class="catalog-item-footer">
+                                    <div class="stars">
+                                        <img src="icons/star.svg" alt="Звезда">
+                                        <img src="icons/star.svg" alt="Звезда">
+                                        <img src="icons/star.svg" alt="Звезда">
+                                        <img src="icons/star.svg" alt="Звезда">
+                                    </div>
+                                    <div class="catalog-item-rating">
+                                        <span>Рейтинг: 8,5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="catalog-item">
+                            <div class="catalog-item-container">
+                                <div class="catalog-item-media">
+                                    <img src="photo/hotel-2.jpg" alt="">
+                                </div>
+                                <div class="catalog-item-name">
+                                    <span>Villas at Poco Diablo</span>
+                                </div>
+                                <div class="catalog-item-stats">
+                                    <span>Гостиница</span>
+                                    <span>От 5000 ₽</span>
+                                </div>
+                                <div class="catalog-item-buttons">
+                                    <button class="brown">подробнее</button>
+                                    <button class="blue">в избранное</button>
+                                </div>
+                                <div class="catalog-item-footer">
+                                    <div class="stars">
+                                        <img src="icons/star.svg" alt="Звезда">
+                                        <img src="icons/star.svg" alt="Звезда">
+                                        <img src="icons/star.svg" alt="Звезда">
+                                        <img src="icons/star.svg" alt="Звезда">
+                                    </div>
+                                    <div class="catalog-item-rating">
+                                        <span>Рейтинг: 9,2</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="catalog-item">
+                            <div class="catalog-item-container">
+                                <div class="catalog-item-media">
+                                    <img src="photo/hotel-3.jpg" alt="">
+                                </div>
+                                <div class="catalog-item-name">
+                                    <span>Desert Quail Inn</span>
+                                </div>
+                                <div class="catalog-item-stats">
+                                    <span>Гостиница</span>
+                                    <span>От 2500 ₽</span>
+                                </div>
+                                <div class="catalog-item-buttons">
+                                    <button class="brown">подробнее</button>
+                                    <button class="blue">в избранное</button>
+                                </div>
+                                <div class="catalog-item-footer">
+                                    <div class="stars">
+                                        <img src="icons/star.svg" alt="Звезда">
+                                        <img src="icons/star.svg" alt="Звезда">
+                                        <img src="icons/star.svg" alt="Звезда">
+                                    </div>
+                                    <div class="catalog-item-rating">
+                                        <span>Рейтинг: 6,9</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="catalog-item">
+                            <div class="catalog-item-container">
+                                <div class="catalog-item-media">
+                                    <img src="photo/hotel-4.jpg" alt="">
+                                </div>
+                                <div class="catalog-item-name">
+                                    <span>GreenTree Inn</span>
+                                </div>
+                                <div class="catalog-item-stats">
+                                    <span>Гостиница</span>
+                                    <span>От 1500 ₽</span>
+                                </div>
+                                <div class="catalog-item-buttons">
+                                    <button class="brown">подробнее</button>
+                                    <button class="blue">в избранное</button>
+                                </div>
+                                <div class="catalog-item-footer">
+                                    <div class="stars">
+                                        <img src="icons/star.svg" alt="Звезда">
+                                        <img src="icons/star.svg" alt="Звезда">
+                                    </div>
+                                    <div class="catalog-item-rating">
+                                        <span>Рейтинг: 5,0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="pagination">
+            <ul>
+                <li class="pagination-item pagination-item--active">
+                    <span>1</span>
+                </li>
+                <li class="pagination-item">
+                    <span>2</span>
+                </li>
+                <li class="pagination-item">
+                    <span>3</span>
+                </li>
+                <li class="pagination-item">
+                    <span>4</span>
+                </li>
+                <li class="pagination-item pagination-item--empty">
+                    <span>...</span>
+                </li>
+                <li class="pagination-item">
+                    <span>10</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="subscription subscription--white">
+        <div class="subscription-container">
+            <div class="subscription-content">
+                <div class="subscription-title">
+                    <span>Подпишитесь на рассылку</span>
+                </div>
+                <div class="subscription-text">
+                    <span>Только полезная информация и никакого спама, честное бойскаутское!</span>
+                </div>
+                <div class="subscription-form">
+                    <form action="">
+                        <input type="text" value="Ваш e-mail">
+                        <button>Подписаться</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <div class="footer-vk">   
+                        <img src="icons/vk.svg" alt="вк">      
+                    </div>
+                    <div class="footer-telegram">   
+                        <img src="icons/telegram.svg" alt="Телеграм">      
+                    </div>
+                    <div class="footer-yotube">   
+                        <img src="icons/yotube.svg" alt="Ютуб">      
+                    </div>
+                </div>
+                <div class="footer-number">
+                    <a href="">+7 (812) 812-12-12</a>
+                </div>
+                <div class="footer-html-academy">   
+                    <img src="icons/html- academy.svg" alt="Академия">      
+                </div>
+                </div>
+                <div class="footer-logo">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup">
+        <div class="popup-block">
+            <div class="popup-container">
+                <div class="popup-header">
+                    <div class="popup-title">
+                        <span>Поиск гостиницы в Седоне</span>
+                    </div>
+                    <div class="popup-close">
+                        <img src="icons/popup-close.svg" alt="Закрыть">
+                    </div>
+                </div>
+                <div class="popup-body">
+                    <div class="popup-line">
+                        <div class="popup-line-name">
+                            <span>Дата заезда:</span>
+                        </div>
+                        <div class="popup-input">
+                            <div class="popup-input-field">
+                                <input type="text" id="cal" placeholder="27 апреля 2020">
+                                <label for="cal"><img src="icons/input-calendar.svg" alt=""></label>
+                            </div>
+                            <span class="input-error">Мы не можем отправить вас в прошлое.</span>
+                        </div>
+                    </div>
+                    <div class="popup-line">
+                        <div class="popup-line-name">
+                            <span>Дата выезда:</span>
+                        </div>
+                        <div class="popup-input">
+                            <div class="popup-input-field">
+                                <input type="text" id="cal" placeholder="1 сентября 2023">
+                                <label for="cal"><img src="icons/input-calendar.svg" alt=""></label>
+                            </div>
+                            <span class="input-message">На эти даты есть свободные номера. Пока есть.</span>
+                        </div>
+                    </div>
+                    <div class="popup-line">
+                        <div class="popup-counter">
+                            <div class="popup-line-name">
+                                <span>Взрослые:</span>
+                            </div>
+                            <div class="popup-counter-el">
+                                <button>-</button>
+                                <input type="text" value="2">
+                                <button>+</button>
+                            </div>
+                        </div>
+                        <div class="popup-counter">
+                            <div class="popup-line-name">
+                                <span>Дети:</span>
+                                <div class="popup-counter-img">
+                                    <img src="icons/input-info.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="popup-counter-el">
+                                <button>-</button>
+                                <input type="text" value="2">
+                                <button>+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-footer">
+                    <button>Найти</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const popupClose = document.querySelector('.popup-close');
+        const popup = document.querySelector('.popup');
+            popupClose.addEventListener('click', () => {
+            popup.style.display = 'none';
+        });
+    </script>
+ </body>
+</html>
